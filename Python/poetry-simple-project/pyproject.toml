@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "poetry-simple-project"
+version = "0.1.0"
+description = ""
+authors = ["mur6"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.19.4"
+
+[tool.poetry.dev-dependencies]
+black = "^20.8b1"
+flake8 = "^3.8.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
